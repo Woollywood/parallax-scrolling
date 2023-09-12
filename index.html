@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230912211449" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!-- Инициализация кастомного скролла, если у пользователя отключен JS -->
+	<noscript>
+		<style>
+			[data-simplebar] {
+				overflow: auto;
+			}
+		</style>
+	</noscript>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="wrapper-content">
+			<header class="header">
+				<div class="header__layers layers-header">
+					<div class="header__container">
+						<div class="layers-header__header" data-speed="0.6">
+							<div class="layers-header__caption">Welcome to Parallax</div>
+							<div class="layers-header__title">Fairy Forest</div>
+						</div>
+					</div>
+					<div class="layers-header__layer layers-header__layer-ibg layers-header__layer_base">
+						<picture><source srcset="img/layer-base.webp" type="image/webp"><img src="img/layer-base.png" alt="background-img" /></picture>
+					</div>
+					<div class="layers-header__layer layers-header__layer-ibg layers-header__layer_middle">
+						<picture><source srcset="img/layer-middle.webp" type="image/webp"><img src="img/layer-middle.png" alt="background-img" /></picture>
+					</div>
+					<div class="layers-header__layer layers-header__layer-ibg layers-header__layer_front">
+						<picture><source srcset="img/layer-front.webp" type="image/webp"><img src="img/layer-front.png" alt="background-img" /></picture>
+					</div>
+				</div>
+			</header>
+
+			<main class="page">
+				<div class="page__layer-ibg">
+					<picture><source srcset="img/dungeon.webp" type="image/webp"><img src="img/dungeon.jpg" alt="page-layer-img" /></picture>
+				</div>
+				<div class="page__content content-page">
+					<div class="content-page__container">
+						<div class="content-page__body">
+							<h2 class="content-page__title">To be continued</h2>
+							<p class="content-page__text">
+								Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum itaque inventore
+								quas odio eaque omnis, maiores rerum cupiditate aut veniam blanditiis cumque iusto
+								minus, commodi ad voluptates ipsam qui quos porro ratione.
+							</p>
+						</div>
+						<div class="content-page__footer">
+							©️ WebDesign Master
+						</div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__container"></div>
+			</footer>
+
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230912211449"></script>
+
+</body>
+
+</html>
